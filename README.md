@@ -1,4 +1,4 @@
-`# 🧠 Smart Metadata Generator
+## 🧠 Smart Metadata Generator
 
 A web-based Streamlit application that automatically extracts and summarizes metadata from uploaded `.txt`, `.pdf`, and `.docx` files. It uses modern NLP tools to provide clean summaries, keywords, language detection, and named entity recognition.
 
@@ -44,28 +44,29 @@ nltk.download('stopwords')`
 `streamlit run streamlit_app.py`
 
 
-📝 Example Workflow
+## 📝 Example Workflow
+
 1. Upload any .pdf, .docx, or .txt file
 
 2. View extracted metadata including:
--Filename
--Language
--Summary
--Keywords
--Named Entities
+- Filename
+- Language
+- Summary
+- Keywords
+- Named Entities
 
 3. Optionally download a .txt metadata report
 
-📚 Built With
--Streamlit
--spaCy
--Transformers
--NLTK
--pdfplumber
--PyMuPDF
--python-docx
+## 📚 Built With
+- Streamlit
+- spaCy
+- Transformers
+- NLTK
+- pdfplumber
+- PyMuPDF
+- python-docx
 
-👤 Author
+## 👤 Author
 Meet Jain
 GitHub: @codewithmints
 

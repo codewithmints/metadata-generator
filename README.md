@@ -48,22 +48,22 @@ nltk.download('stopwords')`
 1. Upload any .pdf, .docx, or .txt file
 
 2. View extracted metadata including:
-Filename
-Language
-Summary
-Keywords
-Named Entities
+-Filename
+-Language
+-Summary
+-Keywords
+-Named Entities
 
 3. Optionally download a .txt metadata report
 
 📚 Built With
-Streamlit
-spaCy
-Transformers
-NLTK
-pdfplumber
-PyMuPDF
-python-docx
+-Streamlit
+-spaCy
+-Transformers
+-NLTK
+-pdfplumber
+-PyMuPDF
+-python-docx
 
 👤 Author
 Meet Jain

@@ -22,7 +22,13 @@ def get_keywords(cleaned_text, top_n=10):
 
 
 # Load spaCy English model
-nlp = spacy.load("en_core_web_trf")
+import spacy
+try:
+    nlp = spacy.load("en_core_web_sm")
+except:
+    import os
+    os.system("python -m spacy download en_core_web_sm")
+    nlp = spacy.load("en_core_web_sm")
 
 # Load summarization model (only once)
 summarizer = pipeline("summarization", model="facebook/bart-large-cnn", framework="pt")

@@ -1,0 +1,38 @@
+Filename: testfile.txt
+
+Extracted on: 2025-06-21 04:02:47
+
+Document length: 1005 characters
+
+Word count: 151
+
+Approx. Reading Time: 1 min
+
+Paragraphs: 5
+
+Detected Language: EN
+
+Dominant Entity Type: GPE
+
+Keywords:
+  - region
+  - disaster
+  - several
+  - national
+  - june
+  - major
+  - landslide
+  - occurred
+  - himachal
+  - pradesh
+
+=== Summary Sections ===:
+  - The disaster struck near the town of Manali, where a hillside gave way after several days of continuous rain. More than 75 people were affected, with rescue operations led by the National Disaster Response Force. Several homes were destroyed and parts of the National Highway 3 were completely blocked. Environmental experts say that unregulated construction and deforestation in the region may have worsened the situation.
+
+=== Named Entities ===:
+  GPE: ['Himachal Pradesh', 'Manali', 'India', 'Chandigarh']
+  LOC: []
+  ORG: ['the National Disaster Response Force', 'NDRF']
+  DATE: ['June 20th, 2025', 'several days']
+  CARDINAL: ['more than 75']
+

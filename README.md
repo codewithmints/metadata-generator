@@ -12,14 +12,21 @@ A web-based Streamlit application that automatically extracts and summarizes met
 - Language detection
 - Downloadable `.txt` metadata output
 
-## 📁 Project Structure
-├── streamlit_app.py # Main Streamlit app
-├── requirements.txt # All Python dependencies
-├── README.md # Project documentation
-├── scripts/
-│ ├── extract_text.py # File parsing logic
-│ ├── preprocess.py # Text preprocessing
-│ └── metadata.py # NER, summary, language detection
+```📁 metadata-generator/
+├── streamlit_app.py          # Main Streamlit app
+├── requirements.txt          # All Python dependencies
+├── README.md                 # Project documentation
+├── sample_docs/              # Folder containing example input files
+│   ├── sample.pdf
+│   ├── scanned_example.pdf
+│   └── testfile.txt
+├── scripts/                  # Source code
+│   ├── extract_text.py       # File parsing logic
+│   ├── preprocess.py         # Text preprocessing
+│   ├── metadata.py           # NER, summary, language detection
+│   └── ocr_helper.py         # OCR-based text extraction using Tesseract```
+
+
 
 
 ## ⚙️ Installation

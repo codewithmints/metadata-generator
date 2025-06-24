@@ -2,10 +2,6 @@
 
 A web-based Streamlit application that automatically extracts and summarizes metadata from uploaded `.txt`, `.pdf`, and `.docx` files. It uses modern NLP tools to provide clean summaries, keywords, language detection, and named entity recognition.
 
-## 🚀 Live Demo
-
-🌐 link: 
-
 ## 📌 Features
 
 - Upload `.txt`, `.pdf`, or `.docx` files

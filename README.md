@@ -4,13 +4,15 @@ A web-based Streamlit application that automatically extracts and summarizes met
 
 ## 📌 Features
 
-- Upload `.txt`, `.pdf`, or `.docx` files
-- Automatic text extraction
-- Text preprocessing & keyword extraction using NLTK
-- Named Entity Recognition (NER) using spaCy
-- Summarization using Hugging Face Transformers
+- Upload `.txt`, `.pdf`, or `.docx` files for metadata generation
+- Automatic text extraction from both **digitally generated** and **scanned (OCR-based)** PDFs
+- OCR support using **Tesseract** for image-based or scanned PDFs
+- Text preprocessing and keyword extraction using **NLTK**
+- Named Entity Recognition (NER) using **spaCy**
+- Summarization using **Hugging Face Transformers**
 - Language detection
 - Downloadable `.txt` metadata output
+
 
 ## 📁 Folder Structure
 ```
